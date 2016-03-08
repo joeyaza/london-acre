@@ -12,7 +12,13 @@ body {
 }
 
 section#about, #team, #requirements, #contact {
-    background: linear-gradient(#f2f2f2, white);
+  /*  background: linear-gradient(white,#9fbfdf,#c6d9ec,white,white);*/
+  background-color: rgba(245, 245, 250, 0.2)
+}
+
+.span {
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .text-muted {
@@ -31,7 +37,7 @@ section#about, #team, #requirements, #contact {
 p, li {
     font-size: 15px;
     line-height: 2;
-    font-family: "Novecento",sans-serif;
+/*    font-family: "Novecento",sans-serif;*/
     color: #1a1a1a;
 }
 
@@ -50,14 +56,14 @@ a.active {
 
 a {
     color: white;
-    text-shadow: 1.2px 1.3px black;
+/*    text-shadow: 1.2px 1.3px black;*/
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: #1a1a1a;
 }
 
 h1,
@@ -67,7 +73,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+/*    font-family: "Novecento",sans-serif;*/
     font-weight: 700;
 }
 
@@ -305,6 +311,19 @@ header {
 /*    margin-left: -100px;*/
 }
 
+.tell-me-more:hover{
+    color: #1a1a1a;
+    background-color: white;
+}
+
+#email {
+    color: #1a1a1a;
+}
+
+#email:hover{
+    font-weight: bold;
+}
+
 a.requirements {
     margin: 0 auto;
     text-align: center;
@@ -312,9 +331,19 @@ a.requirements {
     margin-top: 50px;
 }
 
+a.requirements:hover {
+    color: #1a1a1a;
+    background-color: white;
+}
+
 .maps {
     margin-left:430px;
     margin-top: -365px;
+}
+
+.logo {
+    position: absolute;
+    margin: 40px;
 }
 
 a.contact {
@@ -322,6 +351,11 @@ a.contact {
     text-align: center;
     margin-left: 500px;
     margin-top: 80px;
+}
+
+a.contact:hover {
+    color: #1a1a1a;
+    background-color: white;
 }
 
 .contact {
