@@ -338,12 +338,23 @@ a.requirements:hover {
 
 .maps {
     margin-left:430px;
-    margin-top: -365px;
+    margin-top: -440px;
 }
 
 .logo {
     position: absolute;
     margin: 40px;
+    width: 25%;
+}
+
+.head-about, .head-requirements, .head-contact, .head-fb, .head-twitter {
+    font-size: 30px;
+    padding: 0px 20px;
+    opacity: 0.8;
+}
+
+.head-about {
+
 }
 
 a.contact {
