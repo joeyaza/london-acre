@@ -7,7 +7,8 @@
 body {
     overflow-x: hidden;
 /*    font-family: "Novecento",sans-serif;*/
-    color: #{{ site.color.secondary-dark }};
+/*    color: #333;*/
+/*color: #404040;*/
 }
 
 section#about, #team, #requirements, #contact {
@@ -24,13 +25,16 @@ section#about, #team, #requirements, #contact {
 
 .page-scroll {
     background-color: #ecf0f1;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-p {
-    font-size: 14px;
-    line-height: 1.75;
+p, li {
+    font-size: 15px;
+    line-height: 2;
+    font-family: "Novecento",sans-serif;
+    color: #1a1a1a;
 }
+
 
 p.large {
     font-size: 16px;
@@ -309,8 +313,8 @@ a.requirements {
 }
 
 .maps {
-    margin-left:500px;
-    margin-top: -290px;
+    margin-left:430px;
+    margin-top: -365px;
 }
 
 a.contact {
@@ -386,6 +390,13 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+h2.section-heading {
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 40px;
+    color:#262626;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
@@ -398,6 +409,7 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section#team, #about {
         padding: 200px 0;
+        padding-top: 100px;
     }
 }
 
@@ -716,7 +728,6 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: black;
 }
 
 section#contact .form-group {
