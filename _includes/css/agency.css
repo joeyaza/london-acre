@@ -553,7 +553,7 @@ section h3.section-subheading {
 .map-responsive iframe{
     left:0;
     top:0;
-    height:90%;
+    height:80%;
     width:60%;
     position:absolute;
     margin-right: 20px;
@@ -933,9 +933,10 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 40px 0;
+/*    padding: 40px 0;*/
     text-align: center;
-    background-image: url(img/grey-background.png);
+/*    background-image: url(img/grey-background.png);
+    background-size: 100%;*/
 }
 
 footer span.copyright {
