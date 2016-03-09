@@ -50,7 +50,7 @@ section#about.p {
 
 .page-scroll {
     background-color: #ecf0f1;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 p, li {
@@ -314,7 +314,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/header-bg.jpg);
+    background-image: url(img/logos/header.jpg);
     height: 800px;
     background-position: center center;
     background-repeat: none;
@@ -368,7 +368,7 @@ a.requirements:hover {
 
 .maps {
     margin-left:430px;
-    margin-top: -490px;
+    margin-top: -493px;
     color:black;
 }
 
@@ -472,6 +472,33 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+        .google-maps {
+            width: 20px;
+            height: 20px;
+
+        }
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .google-maps {
+        width: 20px;
+        height: 20px;
+
+    }
+
 }
 
 section {
