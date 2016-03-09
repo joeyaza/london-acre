@@ -882,9 +882,6 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: white;
-    background-position: center;
-    background-repeat: no-repeat;
     margin-bottom: -70px;
     color: white;
     background-image: url(img/grey-background.png);
