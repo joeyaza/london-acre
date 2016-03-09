@@ -316,7 +316,7 @@ header {
     background-attachment: scroll;
     background-image: url(img/logos/header-low.jpg);
     background-size: 100% 100%;
-    min-height: 800px;
+    min-height: 960px;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
