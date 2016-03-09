@@ -315,7 +315,8 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(img/logos/header.jpg);
-    height: 800px;
+    background-size: 100% 100%;
+    min-height: 800px;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -385,6 +386,10 @@ a.requirements:hover {
 .head-about, .head-requirements, .head-contact, .head-fb, .head-twitter {
     font-size: 30px;
     padding: 0px 20px;
+}
+
+.head-fb {
+    margin-left:20px;
 }
 
 .head-about {
@@ -534,6 +539,7 @@ section h3.section-subheading {
     section#team, #about {
         padding: 150px 0;
         padding-top: 100px;
+        min-height: 800px;
 
     }
 }
