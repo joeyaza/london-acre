@@ -11,9 +11,27 @@ body {
 /*color: #404040;*/
 }
 
-section#about, #team, #requirements, #contact {
+section#team, #requirements, #contact {
   /*  background: linear-gradient(white,#9fbfdf,#c6d9ec,white,white);*/
   background-color: rgba(245, 245, 250, 0.2)
+}
+
+section#about {
+    background-color: rgb(87,86,86);
+    color: white;
+}
+
+section#about.p {
+    color:white;
+}
+
+.about-section {
+    color: white;
+}
+
+.requirements-section {
+    color: rgb(87,86,86);
+    line-height: 100%;
 }
 
 .span {
@@ -38,12 +56,20 @@ p, li {
     font-size: 15px;
     line-height: 2;
 /*    font-family: "Novecento",sans-serif;*/
-    color: #1a1a1a;
+/*    color: #1a1a1a;*/
 }
 
 
 p.large {
     font-size: 16px;
+}
+
+.requirements-heading {
+    color: grey;
+}
+
+.about-heading {
+    color:white;
 }
 
 a,
@@ -317,11 +343,13 @@ header {
 }
 
 #email {
-    color: #1a1a1a;
+
 }
 
 #email:hover{
     font-weight: bold;
+    color:white;
+    font
 }
 
 a.requirements {
@@ -339,12 +367,17 @@ a.requirements:hover {
 .maps {
     margin-left:430px;
     margin-top: -440px;
+    color:black;
+}
+
+.maps h2 {
+    color:white;
 }
 
 .logo {
     position: absolute;
     margin: 40px;
-    width: 25%;
+    width: 40%;
 }
 
 .head-about, .head-requirements, .head-contact, .head-fb, .head-twitter {
@@ -424,7 +457,8 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 80px 0;
+    padding-bottom: 80px;
+    padding-top: 15px;
 }
 
 .contact
@@ -439,7 +473,7 @@ h2.section-heading {
     text-align: center;
     font-size: 3.5em;
     margin-bottom: 40px;
-    color:#262626;
+/*    color:#262626;*/
 }
 
 section h3.section-subheading {
@@ -453,8 +487,9 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section#team, #about {
-        padding: 200px 0;
+        padding: 220px 0;
         padding-top: 100px;
+
     }
 }
 
@@ -770,6 +805,8 @@ section#contact {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: -70px;
+    color: white;
+    background-color: rgb(87,86,86);
 }
 
 section#contact .section-heading {
@@ -830,8 +867,9 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 40px 0;
     text-align: center;
+    background-color:rgb(87,86,86);
 }
 
 footer span.copyright {
@@ -839,6 +877,7 @@ footer span.copyright {
     text-transform: none;
     font-family: "Novecento",sans-serif;
     line-height: 40px;
+    color:white;
 }
 
 footer ul.quicklinks {
@@ -861,8 +900,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: black;
+    background-color: white;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -871,7 +910,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #{{ site.color.primary }};
+    background-color: black;
+    color:white;
 }
 
 .btn:focus,
