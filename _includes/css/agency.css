@@ -532,7 +532,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section#team, #about {
-        padding: 220px 0;
+        padding: 150px 0;
         padding-top: 100px;
 
     }
