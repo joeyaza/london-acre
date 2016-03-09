@@ -316,7 +316,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(img/logos/header-low.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     min-height: 960px;
     background-position: center center;
     background-repeat: none;
@@ -369,14 +369,14 @@ a.requirements:hover {
 }
 
 .maps {
-    margin-left:430px;
+/*    margin-left:430px;
     margin-top: -493px;
-    color:black;
+    color:black;*/
 }
 
-.maps h2 {
+/*.maps h2 {
     color:whitehead-about;
-}
+}*/
 
 .logo {
     position: absolute;
@@ -491,12 +491,17 @@ header .intro-text .intro-heading {
 
 }
 
+.google-map {
+    width: 160%;
+    min-height: 390px;
+    }
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-        .google-maps {
+        .google-map {
             width: 20px;
             height: 20px;
 
@@ -533,7 +538,7 @@ h2.section-heading {
     text-align: center;
     font-size: 3.2em;
     margin-bottom: 40px;
-/*    color:#262626;*/
+
 }
 
 section h3.section-subheading {
@@ -943,11 +948,10 @@ section#contact .text-danger {
 }
 
 footer {
-/*    padding: 40px 0;*/
+
     text-align: center;
     position: relative;
-/*    background-image: url(img/grey-background.png);
-    background-size: 100%;*/
+
 }
 
 footer span.copyright {
