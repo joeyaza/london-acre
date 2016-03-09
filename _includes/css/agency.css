@@ -6,9 +6,10 @@
 
 body {
     overflow-x: hidden;
-/*    font-family: "Novecento",sans-serif;*/
+/*    font-family: "Calibri",sans-serif;*/
 /*    color: #333;*/
 /*color: #404040;*/
+font-family: "Calibri",sans-serif;
 }
 
 section#team, #requirements, #contact {
@@ -49,13 +50,13 @@ section#about.p {
 
 .page-scroll {
     background-color: #ecf0f1;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 p, li {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 2;
-/*    font-family: "Novecento",sans-serif;*/
+/*    font-family: "Calibri",sans-serif;*/
 /*    color: #1a1a1a;*/
 }
 
@@ -99,8 +100,9 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-/*    font-family: "Novecento",sans-serif;*/
+/*    font-family: "Calibri",sans-serif;*/
     font-weight: 700;
+    color:white;
 }
 
 .img-centered {
@@ -118,7 +120,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.color.primary }};
@@ -169,7 +171,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -222,7 +224,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     color: #{{ site.color.primary }};
 }
 
@@ -253,7 +255,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -366,12 +368,12 @@ a.requirements:hover {
 
 .maps {
     margin-left:430px;
-    margin-top: -440px;
+    margin-top: -490px;
     color:black;
 }
 
 .maps h2 {
-    color:white;
+    color:whitehead-about;
 }
 
 .logo {
@@ -383,10 +385,26 @@ a.requirements:hover {
 .head-about, .head-requirements, .head-contact, .head-fb, .head-twitter {
     font-size: 30px;
     padding: 0px 20px;
-    opacity: 0.8;
 }
 
 .head-about {
+    width: 120px;
+    margin-top: 50px;
+}
+
+.head-requirements {
+    width: 220px;
+}
+
+.head-contact {
+    width: 140px;
+}
+
+.head-social {
+    height: 10px;
+}
+
+.head-social:hover {
 
 }
 
@@ -417,7 +435,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -426,7 +444,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -440,7 +458,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Novecento",sans-serif;
+        font-family: "Calibri",sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -449,7 +467,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: "Novecento",sans-serif;
+        font-family: "Calibri",sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -479,7 +497,7 @@ h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -561,7 +579,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -836,28 +854,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -875,7 +893,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     line-height: 40px;
     color:white;
 }
@@ -884,7 +902,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     line-height: 40px;
 }
 
@@ -943,7 +961,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Novecento",sans-serif;
+    font-family: "Calibri",sans-serif;
     font-size: 16px;
     font-style: italic;
 }
