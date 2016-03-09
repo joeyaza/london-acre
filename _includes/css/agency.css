@@ -67,6 +67,7 @@ p.large {
 
 .requirements-heading {
     color: grey;
+    font-size: 1.4em;
 }
 
 .about-heading {
@@ -531,7 +532,7 @@ section h2.section-heading {
 
 h2.section-heading {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3.2em;
     margin-bottom: 40px;
 /*    color:#262626;*/
 }
