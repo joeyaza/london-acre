@@ -315,7 +315,6 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
     background-image: url(img/logos/header-low.jpg);
     background-attachment: fixed; 
     background-size: cover;
@@ -519,6 +518,10 @@ header .intro-text .intro-heading {
 
         }
 
+        header {
+            background-attachment: scroll;
+        }
+
 }
 
 
@@ -573,6 +576,10 @@ section h3.section-subheading {
         transform: translateZ(-1px);
         padding-bottom: 14%;
 
+    }
+
+    .header {
+        background-attachment: scroll;
     }
 }
 
