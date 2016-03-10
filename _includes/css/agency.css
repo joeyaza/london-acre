@@ -24,6 +24,8 @@ h2 {
 section#team{
   /*  background: linear-gradient(white,#9fbfdf,#c6d9ec,white,white);*/
   background-image: url(img/logos/white-background.png);
+  text-align: justify;
+   text-justify: inter-word;
 }
 
 
@@ -34,6 +36,8 @@ section#about {
     background-attachment: fixed;
     transform: translateZ(-1px);
     z-index:-1;
+    text-align: justify;
+     text-justify: inter-word;
 }
 
 
@@ -322,7 +326,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-bottom: 23%;
+    padding-bottom: 26%;
 }
 
 .nav-pills {
@@ -565,7 +569,7 @@ section h3.section-subheading {
         min-height: 960px;
         background-attachment: fixed;
         transform: translateZ(-1px);
-        padding-bottom: 10%;
+        padding-bottom: 14%;
 
     }
 }
@@ -907,8 +911,10 @@ section#contact {
     background-image: url(img/logos/grey-background.png);
     background-attachment: fixed;
     transform: translateZ(-1px);
-    padding-bottom: 7%;
+    padding-bottom: 2%;
     padding-top: 8%;
+    text-align: justify;
+    text-justify: inter-word;
 
 }
 
@@ -993,7 +999,7 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-    margin-bottom: 0;
+    margin-top: 50%;
 }
 
 ul.social-buttons li a {
