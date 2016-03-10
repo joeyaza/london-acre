@@ -27,6 +27,9 @@ section#team, #requirements, #contact {
 section#about {
     background-image: url(img/grey-background.png);
     color: white;
+    background-attachment: fixed;
+    transform: translateZ(-1px);
+    z-index:-1;
 }
 
 section#about.p {
@@ -83,9 +86,7 @@ p.large {
 
 a,
 a:hover,
-a:focus,
-a:active,
-a.active {
+ {
     outline: 0;
 }
 
@@ -94,10 +95,10 @@ a {
 /*    text-shadow: 1.2px 1.3px black;*/
 }
 
-a:hover,
-a:focus,
-a:active,
-a.active {
+a:hover
+
+
+{
     color: #1a1a1a;
 }
 
@@ -135,20 +136,12 @@ h6 {
 }
 
 .btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.color.primary }};
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
 
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    background-image: none;
-}
 
 .btn-primary.disabled,
 .btn-primary[disabled],
@@ -186,10 +179,7 @@ fieldset[disabled] .btn-primary.active {
     background-color: #{{ site.color.primary }};
 }
 
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
+.btn-xl:hover
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.color.primary }};
     color: #fff;
@@ -236,10 +226,7 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:hover{
     color: #{{ site.color.secondary }};
 }
 
@@ -269,23 +256,21 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover,{
     outline: 0;
     color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>.active>a {
+/*.navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: #{{ site.color.primary }};
-}
+}*/
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+/*.navbar-default .navbar-nav>.active>a:hover{
     color: #fff;
     background-color: #{{ site.color.secondary }};
-}
+}*/
 
 @media(min-width:768px) {
     .navbar-default {
@@ -323,6 +308,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(img/logos/header-low.jpg);
+    background-attachment: fixed; 
     background-size: cover;
     min-height: 960px;
     background-position: center center;
@@ -574,6 +560,8 @@ section h3.section-subheading {
         padding: 150px 0;
         padding-top: 100px;
         min-height: 960px;
+        background-attachment: fixed;
+        transform: translateZ(-1px);
 
     }
 }
@@ -900,10 +888,16 @@ aside.clients img {
     margin: 50px auto;
 }
 
+a:active {
+    color: transparent;
+}
+
 section#contact {
     margin-bottom: -70px;
     color: white;
     background-image: url(img/grey-background.png);
+    background-attachment: fixed;
+    transform: translateZ(-1px);
 }
 
 section#contact .section-heading {
@@ -1005,9 +999,7 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+ul.social-buttons li a:hover{
     background-color: black;
     color:white;
 }
