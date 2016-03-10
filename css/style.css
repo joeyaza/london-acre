@@ -214,7 +214,8 @@ a.fa:focus {
     font-size: 30px;
   }
 
-  .section p {
+  .section p,
+  .section li {
     text-align: left;
   }
 
