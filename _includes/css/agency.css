@@ -317,6 +317,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-bottom: 23%;
 }
 
 .nav-pills {
@@ -562,6 +563,7 @@ section h3.section-subheading {
         min-height: 960px;
         background-attachment: fixed;
         transform: translateZ(-1px);
+        padding-bottom: 10%;
 
     }
 }
@@ -898,6 +900,9 @@ section#contact {
     background-image: url(img/grey-background.png);
     background-attachment: fixed;
     transform: translateZ(-1px);
+    padding-bottom: 12%;
+    padding-top: 8%;
+
 }
 
 section#contact .section-heading {
