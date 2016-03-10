@@ -14,7 +14,9 @@
 body {
     overflow-x: hidden;
     text-transform: uppercase;
-font-family: "NovecentowideBook",sans-serif;
+    font-family: "NovecentowideBook",sans-serif;
+    text-align: justify;
+
 }
 
 h2 {
@@ -322,7 +324,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-bottom: 23%;
+    padding-bottom: 26%;
 }
 
 .nav-pills {
@@ -565,7 +567,7 @@ section h3.section-subheading {
         min-height: 960px;
         background-attachment: fixed;
         transform: translateZ(-1px);
-        padding-bottom: 10%;
+        padding-bottom: 14%;
 
     }
 }
@@ -993,7 +995,7 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-    margin-bottom: 0;
+    margin-top: 50%;
 }
 
 ul.social-buttons li a {
