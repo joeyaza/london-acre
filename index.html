@@ -1,20 +1,110 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>London Acre</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="
+https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/scrollTo.js"></script>
+  <script src="js/viewport-units-buggyfill.js"></script>
+  <script>window.viewportUnitsBuggyfill.init();</script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="top">
+          <img id="logo" src="assets/img/LAlogo.png">
+          <div class="link-wrapper">
+            <ul class="links">
+              <li><a data-id="about" href="#">About</a></li>
+              <li><a data-id="requirements" href="#">Requirements</a></li>
+              <li><a data-id="contact" href="#">Contact</a></li>
+              <li>
+                <a class="fa fa-facebook" href="https://facebook.com/londonacre"></a>
+                <a class="fa fa-twitter" href="https://twitter.com/LondonAcre" target="_blank" class="fa fa-twitter"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about section col-xs-12">
+          <h2>ABOUT</h2>
 
-<div class="home">
+          <p>LONDON ACRE IS A DYNAMIC PROPERTY DEVELOPMENT COMPANY SPECIALISING IN CREATING BOUTIQUE RESIDENTIAL SCHEMES IN KEY LOCATIONS ACROSS THE CAPITAL.</p>
 
-  <h1>Posts</h1>
+          <p>DESIGN, QUALITY AND ATTENTION TO DETAIL LIE AT THE HEART OF THE COMPANY’S ETHOS, ENSURING THAT EVERY LONDON ACRE HOME IS CREATED WITH ITS RESIDENTS IN MIND.</p>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+          <p>THE COMPANY, FOUNDED IN EARLY 2016, WAS CREATED IN RESPONSE TO THE GROWING DEMAND FOR THOUGHTFULLY DESIGNED, WELL-LOCATED HOMES THAT MEET AND EXCEED THE NEEDS OF LONDON’S RAPIDLY EXPANDING POPULATION.</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+          <p>LONDON ACRE’S TEAM HAS A PROVEN TRACK RECORD FOR ACHIEVING PLANNING PERMISSION FOR A NUMBER OF HIGH PROFILE LONDON SCHEMES. WORKING WITH INDUSTRY-LEADING ARCHITECTS, DESIGNERS AND CONSULTANTS, A TAILORED APPROACH IS TAKEN TO EACH SITE, FROM THE POINT OF ACQUISITION THROUGH TO THE DESIGN AND DELIVERY OF THESE EXCEPTIONAL PROPERTIES.</p>
 
-</div>
+          <p>MANAGING DIRECTOR, ROSS JACOBSON, HAS IN-DEPTH KNOWLEDGE AND EXTENSIVE EXPERIENCE OF LONDON’S RESIDENTIAL AND COMMERCIAL PROPERTY MARKETS, HAVING OVERSEEN IN EXCESS OF £100 MILLION OF PROPERTY TRANSACTIONS IN THE CAPITAL.</p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <section class="white" id="requirements">
+    <div class="container">
+      <div class="row">
+        <div class="requirements section col-xs-12">
+          <h2>REQUIREMENTS</h2>
+
+          <p>LONDON ACRE IS SEEKING RESIDENTIAL DEVELOPMENT OPPORTUNITIES IN KEY CENTRAL LONDON LOCATIONS THAT MEET THE FOLLOWING REQUIREMENTS:</p>
+          <ul>
+          <li>UNCONDITIONAL, CONSENTED AND SUBJECT TO PLANNING RESIDENTIAL-LED SCHEMES</li>
+          <li>MULTI-UNIT APARTMENT AND HOUSING SCHEMES WILL BE CONSIDERED</li>
+          <li>LOCATED WITHIN LONDON ZONES 1-5</li>
+          <li>PURCHASE PRICES RANGING FROM £1-5 MILLION</li>
+          <li>SALES VALUES FROM £500-1500 PER SQ FT</li>
+          <li>PROXIMITY TO EXCELLENT TRANSPORT LINKS IS A PREREQUISITE</li>
+          </ul>
+
+          <p>IN A FAST-PACED MARKET THAT RELIES ON THE ABILITY TO TRANSACT QUICKLY, LONDON ACRE IS WELL-POSITIONED TO DRAW ON ITS OWN IN-HOUSE FUNDS, ENABLING THE COMPANY TO EXCHANGE AND COMPLETE ON SITE ACQUISITIONS WITHIN SHORT TIMEFRAMES. TO FIND OUT MORE ABOUT LONDON ACRE’S REQUIREMENTS PLEASE CONTACT THE TEAM AT INFO@LONDONACRE.CO.UK</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="grey" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section contact">
+          <h2>CONTACT</h2>
+          <div class="col-xs-12 col-md-4">
+            <h3>ADDRESS</h3>
+            <p>LONDON ACRE</p>
+            <p>INTERCHANGE TRIANGLE</p> 
+            <p>STABLES MARKET</p> 
+            <p>CHALK FARM ROAD</p> 
+            <p>LONDON</p>
+            <p>NW1 8AB</p>
+            <br>
+            <p>TEL: +44 (0)20 3355 0719</p>
+            <p>INFO@LONDONACRE.CO.UK</p>
+          </div>
+          <div class="col-xs-12 col-md-8">
+              <h3>MAP</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.453210472646!2d-0.1489625842061243!3d51.541588079640725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ae3fb04cd45%3A0xc7d018cebe591764!2sInterchange+Triangle!5e0!3m2!1sen!2suk!4v1457649141678" width="100%" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="col-xs-12 copyright">
+            <a href="https://facebook.com/londonacre" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/LondonAcre" target="_blank" class="fa fa-twitter"></a><br>
+            <span>&copy; London Acre 2016</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
