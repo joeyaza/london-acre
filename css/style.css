@@ -3,6 +3,13 @@
   src: url(../assets/font/novecento.otf) format("opentype");
 }
 
+a:hover
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
 body {
   font-family: "novecento", sans-serif;
   text-transform: uppercase;
@@ -14,6 +21,9 @@ body {
 
 #logo {
   width: 500px;
+  position: absolute;
+  left: 35px;
+  top: 35px;
 }
 
 section {
@@ -30,6 +40,10 @@ section.hero {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+section.hero .container {
+
 }
 
 .hero .container,
@@ -94,7 +108,6 @@ section.white {
 
 .top {
   padding: 45px 0;
-  position: relative;
 }
 
 ul.links {
@@ -138,6 +151,7 @@ ul.links li a.fa {
 .link-wrapper {
   position: absolute;
   bottom: 35px;
+  left: 35px;
 }
 
 .copyright {
@@ -193,7 +207,7 @@ a.fa:focus {
   }
 
   #logo {
-    width: 100%;
+    width: 75%;
   }
 
   ul.links li a {
@@ -210,6 +224,10 @@ a.fa:focus {
 
   section.hero {
     background-attachment: scroll;
+  }
+
+  .section h2 {
+    font-size: 28px;
   }
 }
 
