@@ -36,6 +36,7 @@ section#about {
     z-index:-1;
 }
 
+
 section#about.p {
     color:white;
 }
@@ -893,6 +894,11 @@ aside.clients img {
 
 a:active {
     color: transparent;
+}
+
+.nav-pills > li.active > a {
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
 }
 
 section#contact {

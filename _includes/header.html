@@ -2,7 +2,7 @@
             <img class="logo" src="img/logos/logo.png" alt="">
 
             <div class="col-xs-6 col-sm-4">
-                <ul class="nav nav-pills nav-stacked">
+                <ul class="nav nav-pills nav-stacked affix-top hidden-print" data-toggle="affix" data-spy="affix">
                     <li>
                         <a class="page-scroll head-about" href="#about">About</a>
                     </li>
@@ -17,7 +17,13 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+
+            <script> 
+                $('ul.nav.nav-pills li a').click(function() {          
+                    $(this).parent().addClass('active').siblings().removeClass('active');   
+                });
+            </script>
+                <!-- /.navbar-collapse -->
  
 
 
