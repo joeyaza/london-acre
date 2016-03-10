@@ -898,7 +898,7 @@ a:active {
 section#contact {
     margin-bottom: -70px;
     color: white;
-    background-image: url(img/grey-background.png);
+    background-image: url(img/logos/grey-background.png);
     background-attachment: fixed;
     transform: translateZ(-1px);
     padding-bottom: 7%;
