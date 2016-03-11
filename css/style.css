@@ -3,6 +3,16 @@
   src: url(../assets/font/novecento.otf) format("opentype");
 }
 
+
+#email-contact {
+  color: white;
+}
+
+#email-req {
+  color: rgb(87,86,86);
+}
+
+
 a:hover
 a:visited,
 a:focus,
