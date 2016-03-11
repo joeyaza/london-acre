@@ -220,6 +220,14 @@ a.fa:focus {
     padding: 40px 20px;
   }
 
+  .section p {
+    font-size: 11px;
+  }
+
+  .section li {
+    font-size: 11px;
+  }
+
   section.hero {
     height: 100vh;
   }
@@ -242,7 +250,7 @@ a.fa:focus {
   }
 
   section.hero {
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
   }
 
   .section h2 {
