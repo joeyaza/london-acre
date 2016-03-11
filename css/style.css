@@ -52,6 +52,13 @@ section.hero {
   background-attachment: fixed;
 }
 
+.about {
+  background-color: rgba(0,0,0,0.4);
+  padding: 5px 15px 10px 15px;
+  line-height: 2;
+  border-radius: 3px;
+}
+
 section.hero .container {
 
 }
@@ -86,6 +93,7 @@ section.white {
   width: 85%;
   padding: 50px;
 }
+
 
 .section p,
 .section li {
