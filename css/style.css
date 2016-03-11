@@ -83,7 +83,7 @@ section.white {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);  
   transform: translate(-50%, -50%); 
-  width: 100%;
+  width: 85%;
   padding: 50px;
 }
 
