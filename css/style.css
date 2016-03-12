@@ -9,20 +9,25 @@
 }
 
 #email-req {
-  color: rgb(87,86,86);
+  color:white;
 }
 
-
-a:hover
+a,
+a:hover,
 a:visited,
 a:focus,
 a:active {
   text-decoration: none;
 }
 
+p {
+  color:#FFFFFF;
+}
+
 body {
   font-family: "novecento", sans-serif;
   text-transform: uppercase;
+  color:white;
 }
 
 .container {
@@ -230,6 +235,7 @@ a.fa:focus {
 
   section.hero {
     height: 100vh;
+    background-position: 50% -30%; 
   }
 
   #logo {
