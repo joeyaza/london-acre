@@ -256,7 +256,7 @@ a.fa:focus {
   }
 
   section.hero {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 
   .section h2 {
