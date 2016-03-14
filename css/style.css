@@ -220,6 +220,16 @@ ul.links li a.fa {
   padding-left: 140px;
 }
 
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ 
+
+  .contact {
+    background-color: rgba(0,0,0,0.7);
+    height: 230vh;
+    width: 120%;
+  }
+
+}
+
 
 @media (max-width: 960px) {
   section {
