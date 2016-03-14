@@ -78,7 +78,7 @@ section.hero {
 }
 
 section.grey {
-  background: url('../assets/img/LAgrey.png');
+  background-color: rgba(0,0,0,0.7);
   background-attachment: fixed;
 }
 
@@ -209,16 +209,7 @@ ul.links li a.fa {
   text-decoration: none;
 }
 
-.contact {
-  background-color: rgba(0,0,0,0.7);
-  height: 100%;
-  width: 100%;
-  line-height: 2;
-  border-radius: 3px;
-  padding-top: 170px;
-  padding-right: 140px;
-  padding-left: 140px;
-}
+
 
 
 @media (max-width: 960px) {
@@ -226,11 +217,7 @@ ul.links li a.fa {
     height: auto;
   }
 
-  .contact {
-    background-color: rgba(0,0,0,0.7);
-    height: 170vh;
-    width: 120%;
-  }
+
 
   .section {
     position: static;
