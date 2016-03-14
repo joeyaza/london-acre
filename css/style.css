@@ -3,37 +3,9 @@
   src: url(../assets/font/novecento.otf) format("opentype");
 }
 
-* {
-   margin: 0;
-   padding: 0;
-}
-
-
-#email-contact {
-  color: white;
-}
-
-#email-req {
-  color:white;
-  font-weight: bold;
-}
-
-a,
-a:hover,
-a:visited,
-a:focus,
-a:active {
-  text-decoration: none;
-}
-
-p {
-  color:#FFFFFF;
-}
-
 body {
   font-family: "novecento", sans-serif;
   text-transform: uppercase;
-  color:white;
 }
 
 .container {
@@ -41,8 +13,8 @@ body {
 }
 
 #logo {
-  width: 600px;
   position: fixed;
+  width: 600px;
   left: 35px;
   top: 35px;
 }
@@ -63,14 +35,6 @@ section.hero {
   background-attachment: fixed;
 }
 
-.about {
-  background-color: rgba(0,0,0,0.6);
-  padding: 5px 15px 10px 15px;
-  line-height: 2;
-  border-radius: 3px;
-}
-
-
 .hero .container,
 .hero .container .row,
 .hero .container .row .top {
@@ -83,12 +47,12 @@ section.grey {
 }
 
 section.white {
-  background: white;
+  background: url('../assets/img/LAwhite.png');
   background-attachment: fixed;
 }
 
 .section.requirements {
-  color: rgb(87,86,86);
+  color: white;
 }
 
 .section {
@@ -102,6 +66,12 @@ section.white {
   padding: 50px;
 }
 
+.about {
+  background-color: rgba(0,0,0,0.6);
+/*  padding: 5px 15px 10px 15px;*/
+  line-height: 2;
+  border-radius: 3px;
+}
 
 .section p,
 .section li {
@@ -125,9 +95,8 @@ section.white {
 .section h3 {
   font-size: 28px;
   font-weight: bold;
-  margin: 15px 0 15px;
+  margin: 25px 0 25px;
 }
-
 
 .section.contact p {
   line-height: 1.3;
@@ -135,6 +104,7 @@ section.white {
 
 .top {
   padding: 45px 0;
+/*  position: relative;*/
 }
 
 ul.links {
@@ -182,7 +152,7 @@ ul.links li a.fa {
 }
 
 .copyright {
-  padding: 100px 0;
+  padding: 50px 0;
   font-size: 12px;
   text-align: center;
 }
@@ -208,8 +178,12 @@ ul.links li a.fa {
   color: white;
   text-decoration: none;
 }
-
-
+/*
+a.fa:hover,
+a.fa:active,
+a.fa:focus {
+  text-decoration: none;
+}*/
 
 @media (max-width: 960px) {
   section {
@@ -264,5 +238,8 @@ ul.links li a.fa {
     font-size: 28px;
   }
 }
+
+
+
 
 
