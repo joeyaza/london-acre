@@ -32,6 +32,11 @@ section {
   position: relative;
 }
 
+.contact {
+  height: 100vh;
+  width: 100%;
+}
+
 section.hero {
   background: url('../assets/img/LAbackgroundLR.jpg');
   background-position: center;
