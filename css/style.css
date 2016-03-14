@@ -210,12 +210,11 @@ ul.links li a.fa {
 }
 
 
+
 @media (max-width: 960px) {
   section {
     height: auto;
   }
-
-
 
   .section {
     position: static;
