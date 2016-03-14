@@ -12,6 +12,10 @@ body {
   padding: 0 40px;
 }
 
+#email {
+  color:white;
+}
+
 #logo {
   position: fixed;
   width: 600px;
