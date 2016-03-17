@@ -112,6 +112,8 @@ section.grey {
 
 #contact {
 padding-top: 8.5%;
+bottom: 0;
+border: 1px solid transparent;
 }
 
 .section.contact p {
