@@ -36,8 +36,8 @@ section {
   height: 100vh;
   width: 100%;
   -webkit-filter: blur(0.000001px);
-  -webkit-font-smoothing: antialiased !important;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+/*  -webkit-font-smoothing: antialiased !important;*/
+/*  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);*/
 }
 
 section.hero {
