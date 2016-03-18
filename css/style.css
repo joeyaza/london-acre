@@ -3,15 +3,13 @@
   src: url(../assets/font/novecento.otf) format("opentype");
 }
 
+html {
+max-width: 100%;
+}
+
 body {
   font-family: "novecento", sans-serif;
   text-transform: uppercase;
-}
-
-#container {
-    float: left;
-    margin: 0;
-    width: 100%;
 }
 
 .row {
@@ -36,7 +34,7 @@ body {
 
 section {
   height: 100vh;
-  min-width: 100%;
+  width: 100%;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
