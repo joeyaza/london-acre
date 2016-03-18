@@ -8,6 +8,11 @@ body {
   text-transform: uppercase;
 }
 
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
 .container {
   padding: 0 40px;
 }
