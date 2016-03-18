@@ -267,7 +267,8 @@ a.fa:focus {
 
   ul.links li a.fa {
     padding: 2px;
-        font-size: 1.5em
+        font-size: 1.5em;
+        margin-bottom: 20px;
   }
 
   .section p,
