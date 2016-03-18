@@ -239,6 +239,7 @@ a.fa:focus {
     transform: none; 
     width: 100%;
     padding: 40px 20px;
+
   }
 
   .section p {
@@ -259,7 +260,14 @@ a.fa:focus {
   }
 
   ul.links li a {
-    font-size: 30px;
+/*    font-size: 30px;*/
+    padding: 2px;
+        font-size: 1.5em
+  }
+
+  ul.links li a.fa {
+    padding: 2px;
+        font-size: 1.5em
   }
 
   .section p,
