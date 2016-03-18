@@ -13,10 +13,6 @@ html,body
     overflow-x: hidden; 
 }
 
-html {
-max-width: 100%;
-}
-
 body {
   font-family: "novecento", sans-serif;
   text-transform: uppercase;
