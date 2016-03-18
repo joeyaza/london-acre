@@ -262,13 +262,13 @@ a.fa:focus {
   ul.links li a {
 /*    font-size: 30px;*/
     padding: 2px;
-        font-size: 1.5em
+        font-size: 1.3em
   }
 
   ul.links li a.fa {
     padding: 2px;
-        font-size: 1.5em;
-        margin-bottom: 35px;
+        margin-bottom: 40px;
+        background-color: transparent;
   }
 
   .section p,
