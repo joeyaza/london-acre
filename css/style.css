@@ -137,7 +137,6 @@ left:0;
 bottom:0;
 top:0;
 overflow: hidden;
--webkit-filter: blur(0.000001px);
 }
 
 .section.contact p {
