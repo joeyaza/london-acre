@@ -117,7 +117,11 @@ section.grey {
 padding-top: 8.5%;
 margin: 0;
 border: 1px solid transparent;
-/*overflow: hidden;*/
+right:0;
+left:0;
+bottom:0;
+top:0;
+overflow: hidden;
 }
 
 .section.contact p {
