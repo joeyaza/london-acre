@@ -10,7 +10,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 body {
@@ -29,6 +29,11 @@ body {
 
 #email {
   color:white;
+}
+
+.text-email {
+  font-weight: 900;
+  font-size:1.2em;
 }
 
 #logo {
@@ -290,8 +295,3 @@ a.fa:focus {
     font-size: 28px;
   }
 }
-
-
-
-
-
