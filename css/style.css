@@ -3,6 +3,13 @@
   src: url(../assets/font/novecento.otf) format("opentype");
 }
 
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
+
+/*the above should make iphone phone number white*/
+
 
 html,body
 {
