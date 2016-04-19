@@ -74,8 +74,7 @@ section.hero {
 }
 
 section.grey {
-  background-color: rgba(0,0,0,0.7);
-  background-attachment: fixed;
+  background-color: #4d4d4d;
 }
 
 /*section.white {
