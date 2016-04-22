@@ -130,7 +130,7 @@ section.grey {
 }
 
 #contact {
-padding-top: 8.5%;
+/*padding-top: 8.5%;*/
 border: 1px solid transparent;
 overflow: hidden;
 }
@@ -190,7 +190,7 @@ ul.links li a.fa {
 
 .copyright {
   padding: 50px 0;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 .fa-facebook,
