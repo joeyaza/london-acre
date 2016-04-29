@@ -30,6 +30,10 @@
    font-style: normal;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {@font-face {font-family: ‘noventoNorm’;
+src: url('../assets/font/synthview_-_novecento_sans_wide_normal-webfont.svg') format('svg');
+}}
+
 
 a[href^="tel"]{
     color:inherit;
