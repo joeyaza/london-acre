@@ -140,6 +140,8 @@ section.grey {
 // padding-top: 8.5%;
 border: 1px solid transparent;
 overflow: hidden;
+z-index: 1;
+-webkit-filter: blur(0);
 }
 
 .section.contact p {
