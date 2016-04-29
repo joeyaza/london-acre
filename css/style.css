@@ -1,11 +1,33 @@
+// @font-face {
+//   font-family: novecento;
+//   src: url(../assets/font/novecento.otf) format("opentype");
+// }
+
+// @font-face {
+//   font-family: novecentoNorm;
+//   src: url(../assets/font/NovecentoNormal.otf) format("opentype");
+// }
+
 @font-face {
-  font-family: novecento;
-  src: url(../assets/font/novecento.otf) format("opentype");
+   font-family: 'novecento';
+   src: url('../assets/font/synthview_-_novecento_sans_wide_book-webfont.eot');
+   src:
+        url('../assets/font/synthview_-_novecento_sans_wide_book-webfont.woff') format('woff'),
+        url('../assets/font/synthview_-_novecento_sans_wide_book-webfont.ttf') format('truetype'),
+        url('../assets/font/synthview_-_novecento_sans_wide_book-webfont.svg') format('svg');
+   font-weight: normal;
+   font-style: normal;
 }
 
 @font-face {
-  font-family: novecentoNorm;
-  src: url(../assets/font/NovecentoNormal.otf) format("opentype");
+   font-family: 'novecentoNorm';
+   src: url('../assets/font/synthview_-_novecento_sans_wide_normal-webfont.eot');
+   src:
+        url('../assets/font/synthview_-_novecento_sans_wide_normal-webfont.woff') format('woff'),
+        url('../assets/font/synthview_-_novecento_sans_wide_normal-webfont.ttf') format('truetype'),
+        url('../assets/font/synthview_-_novecento_sans_wide_normal-webfont.svg') format('svg');
+   font-weight: normal;
+   font-style: normal;
 }
 
 
@@ -136,12 +158,9 @@ section.grey {
 }
 
 #contact {
-  font-family: "novecentoNorm", sans-serif;
 // padding-top: 8.5%;
 border: 1px solid transparent;
 overflow: hidden;
-z-index: 1;
--webkit-filter: blur(0);
 }
 
 .section.contact p {
