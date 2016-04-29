@@ -1,7 +1,8 @@
-$(function(){
+jQuery(function(){
   $('a').on('click', function(){
     var ref = $(this).attr('data-id');
     console.log("clicked", ref)
-    $('body').scrollTo($('#'+ref), 2000)
+    $('body').scrollTo($('#'+ref), 3000)
   })
-})
+  event.preventDefault();
+});

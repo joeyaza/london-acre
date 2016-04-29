@@ -3,6 +3,12 @@
   src: url(../assets/font/novecento.otf) format("opentype");
 }
 
+@font-face {
+  font-family: novecentoNorm;
+  src: url(../assets/font/NovecentoNormal.otf) format("opentype");
+}
+
+
 a[href^="tel"]{
     color:inherit;
     text-decoration:none;
@@ -130,7 +136,8 @@ section.grey {
 }
 
 #contact {
-/*padding-top: 8.5%;*/
+  font-family: "novecentoNorm", sans-serif;
+// padding-top: 8.5%;
 border: 1px solid transparent;
 overflow: hidden;
 }
