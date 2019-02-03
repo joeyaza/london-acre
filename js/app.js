@@ -1,8 +1,9 @@
 jQuery(function(){
   $('a').on('click', function(){
     var ref = $(this).attr('data-id');
-    console.log("clicked", ref)
-    $('body').scrollTo($('#'+ref), 3000)
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $('#'+ref).offset().top
+    }, 1000);
   })
   event.preventDefault();
 });
